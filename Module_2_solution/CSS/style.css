@@ -66,14 +66,17 @@ width:100%;
     }
     .col-3{
         width:98%;
-        margin-top:15px;
+        margin-top:20px;
     }
 }
 @media (max-width:767px){
     .col{
         float: none;
-        width:95%;
+        width:92%;
         margin:auto;
         margin-top: 20px;
     }
+	.container{
+		margin-bottom:30px;
+	}
 }
