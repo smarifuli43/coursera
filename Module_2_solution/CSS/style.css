@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header h1{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 60px;
+}
+.col{
+    border:1px solid #000;
+    padding: 30px 15px 5px;
+    position: relative;
+     float: left;
+}
+
+.col-1{
+    background-color: #a7a7a8;
+}
+.col-2{
+    background-color: #939b8f;
+}
+.col-3{
+    background-color: #c2989c;
+}
+.section-heading{
+    position: absolute;
+    top:0;
+    right:0;
+    border:1px solid #000;
+}
+.col-1 .section-heading{
+    background-color: #f1b7be;
+    padding: 3px 15px;
+}
+.col-2 .section-heading{
+    background-color: rgb(238, 70, 70);
+    color:#fff;
+    padding: 3px 25px;
+}
+.col-3 .section-heading{
+    background-color: #f7e3af;
+    padding: 3px 22px;
+}
+.container{
+width:100%;
+}
+
+
+
+/* =======================Medai Query=================== */
+@media (min-width:992px){
+.col{
+     width:30%;
+     margin-left: 28px;
+     
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col{
+        width:48%;
+        margin-left:12px;
+    }
+    .col-3{
+        width:98%;
+        margin-top:15px;
+    }
+}
+@media (max-width:767px){
+    .col{
+        float: none;
+        width:95%;
+        margin:auto;
+        margin-top: 20px;
+    }
+}
